@@ -28,7 +28,8 @@ class UI {
                     </div>  
                 </div>
             </div>
-            <h3 class="page-heading mb-3">Last Repos</h3>
+            <img class="grass" src="https://ghchart.rshah.org/${user.login}"/>
+            <h3 class="page-heading mb-3 mt-5">Last Repos</h3>
             <div id="repos"></div>
         `;
     }
